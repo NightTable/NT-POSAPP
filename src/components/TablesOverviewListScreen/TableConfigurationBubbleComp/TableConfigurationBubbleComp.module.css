@@ -1,0 +1,40 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.tableConfigurationBubbleCompContainer {
+    display: flex;
+    background-color: white;
+    width: 25%;
+    height: 100%;
+    border-radius: 1.7rem;
+    align-items: center;
+    border: 1px solid #ff9900;
+}
+
+.leftRowComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 85%;
+}
+
+.rightRowComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.availabilityNumberStyle {
+    color: green;
+    margin-bottom: 0.2rem;
+}
+
+.availabilityTextLabelStyle {
+    color: green;
+}

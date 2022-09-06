@@ -1,0 +1,120 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.tablesOverviewListScreenContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.tablesOverviewHeaderContainer {
+    display: flex;
+    margin-top: 1.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+}
+
+.availableTableTypeLabelContainer {
+    display: flex;
+    width: 15rem;
+    height: 3rem;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-left: 1rem;
+}
+
+.cartButtonContainer {
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartButtonStyle {
+    width: 85%;
+    height: 2rem;
+    outline-style: none;
+    color: #ff9900;
+    border-radius: 0.4rem;
+    background-color: white;
+    border: 1px solid #ff9900;
+}
+
+.upperTableConfigRowContainer {
+    display: flex;
+    height: 10rem;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin-top: 1rem;
+}
+
+.lowerTableConfigRowContainer {
+    display: flex;
+    height: 10rem;
+    width: 85%;
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.whiteCurveImage {
+    position: absolute;
+    width: 100%;
+    height: 15rem;
+    top: 50%;
+    left: 20%;
+    transform: scale(3.5, 2.5);
+}
+
+.lowerFooterContainer {
+    display: flex;
+    margin-top: 15rem;
+    width: 100%;
+    height: 3rem;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.lowerButtonContainer {
+    display: flex;
+    width: 12rem;
+}
+
+.continueButtonStyle {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: green;
+    font-family: inherit;
+    height: 2rem;
+    flex-direction: row;
+    outline-style: none;
+    border-style: none;
+    font-size: 0.8rem;
+    background-color: white;
+    align-items: center;
+    border: 1px solid #ff9900;
+    border-radius: 0.5rem;
+}
+
+.continueLabelText {
+    margin-left: 0.5rem;
+}
+
+.rightGreenArrowPic {
+    width: 4rem;
+    height: 2rem;
+}

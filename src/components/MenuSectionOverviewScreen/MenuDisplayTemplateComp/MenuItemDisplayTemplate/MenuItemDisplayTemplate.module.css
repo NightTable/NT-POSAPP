@@ -1,0 +1,141 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.menuItemDisplayTemplateContainer {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    flex-direction: row;
+    height: 3rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0.1rem;
+}
+
+
+.menuItemDisplayTemplateContainerSelected {
+    display: flex;
+    width: 100%;
+    background-color: #c3195d;
+    color: white;
+    flex-direction: row;
+    height: 3rem;
+    border-radius: 0.2rem;
+    margin-bottom: 0.1rem;
+}
+
+.menuItemNameContainer {
+    display: flex;
+    flex: 5;
+    align-items: center;
+}
+
+
+.menuItemNameTextStyle {
+    display: flex;
+    margin-left: 2.2rem;
+}
+
+.menuItemSizeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    color: #c3195d;
+}
+
+.menuItemSizeContainerSelected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    color: white;
+}
+
+.menuItemPriceContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    color: #c3195d;
+}
+
+.menuItemPriceContainerSelected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    color: white;
+}
+
+
+.menuItemQuantityContainer {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    color: #c3195d;
+}
+
+.buttonControlContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.minusButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 3rem;
+}
+
+.numberLabelContainer {
+    display: flex;
+}
+
+.plusButtonContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 3rem;
+}
+
+.minusButtonTextStyle {
+    display: flex;
+    margin-right: 0.2rem;
+    font-size: 1.3rem;
+    /* margin-left: 0.5rem; */
+}
+
+.minusButtonTextStyleSelected {
+    display: flex;
+    margin-right: 0.2rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.numberLabelTextStyle {
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.numberLabelTextStyleSelected {
+    display: flex;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.plusButtonTextStyle {
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.plusButtonTextStyleSelected {
+    display: flex;
+    font-size: 1.3rem;
+    color: white;
+}

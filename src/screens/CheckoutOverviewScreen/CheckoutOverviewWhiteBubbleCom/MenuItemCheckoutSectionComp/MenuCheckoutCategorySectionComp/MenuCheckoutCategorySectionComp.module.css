@@ -1,0 +1,26 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.menuCheckoutCategorySectionCompContainer {
+    display: flex;
+    width: 97%;
+    min-height: 3rem;
+    align-self: flex-end;
+    flex-direction: column;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.menuCategorySectionRowContainer {
+    display: flex;
+    min-height: 2.5rem;
+}
+
+.menuCategoryTextStyle {
+    display: flex;
+    color: #c3195d;
+    font-size: 1.2rem;
+}

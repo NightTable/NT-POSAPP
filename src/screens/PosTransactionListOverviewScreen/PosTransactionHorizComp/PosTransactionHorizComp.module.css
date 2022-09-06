@@ -1,0 +1,53 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.posTransactionHorizCompContainer {
+    display: flex;
+    background-color: white;
+    width: 95%;
+    height: 3.4rem;
+    font-size: 1.1rem;
+    border-radius: 0.4rem;
+    margin-bottom: 0.1rem;
+}
+
+.purchaseNameContainer {
+    display: flex;
+    flex: 4;
+    height: 100%;
+    align-items: center;
+}
+
+.purchaseNameTextStyle {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.purchaseTypeContainer {
+    display: flex;
+    flex: 4;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.chargedContainer {
+    display: flex;
+    flex: 4;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #c3195d;
+    font-weight: 700;
+}
+
+.dateContainer {
+    display: flex;
+    flex: 4;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}

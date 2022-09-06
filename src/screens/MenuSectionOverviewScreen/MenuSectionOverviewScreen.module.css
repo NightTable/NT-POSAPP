@@ -1,0 +1,146 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.menuSectionOverviewScreenContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+
+.menuSectionOverviewHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.smallLeftOuterContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    width: 11rem;
+}
+
+.middleButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 29rem;
+}
+
+.menuButtonHeaderStyle {
+    display: flex;
+    margin-right: 0.7rem;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    font-family: inherit;
+    width: 8rem;
+    border-radius: 0.25rem;
+    height: 1.7rem;
+}
+
+.menuButtonHeaderStyleSelected {
+    display: flex;
+    margin-right: 0.7rem;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #c3195d;
+    border: 2px solid white;
+    color: white;
+    font-family: inherit;
+    width: 8rem;
+    border-radius: 0.25rem;
+    height: 1.7rem;
+}
+
+
+.upperRightCartButtonStyle {
+    display: flex;
+    width: 8rem;
+    border-radius: 0.25rem;
+    height: 1.7rem;
+    align-items: center;
+    justify-content: center;
+    color: #ff9900;
+    border: 1px solid #ff9900;
+    font-family: inherit;
+}
+
+.smallRightOuterContainer {
+    display: flex;
+    flex-direction: row;
+    width: 11rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuSectionOverviewBodyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex: 9;
+}
+
+.availableMenuItemLabel {
+    display: flex;
+    margin-left: 0.8rem;
+}
+
+.innerBubbleBodyContainer { 
+    display: flex;
+    background-color: #f3f3f3;
+    border-radius: 6rem;
+    height: 95%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    box-shadow: 0px 0px 4px grey;
+}
+
+.menuSectionFooterOverviewContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.paymentInfoButtonContainer {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 17rem;
+}
+
+.paymentInfoButtonStyle {
+    display: flex;
+    width: 13rem;
+    height: 50%;
+    font-size: 1rem;
+    font-family: inherit;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+    color: green;
+    
+}
+
+.greenRightArrowStyle {
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+}

@@ -1,0 +1,112 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.tableDetailOverviewScreenContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.upperHorizontalRowContainer {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: space-between;
+    flex: 2;
+}
+
+.mainBodyContainer {
+    display: flex;
+    width: 100%;
+    flex: 15;
+    align-items: center;
+    justify-content: center;
+}
+
+.lowerFooterButtonContainer {
+    display: flex;
+    width: 100%;
+    flex: 2;
+    justify-content: space-between;
+}
+
+.tablePaymentDetailContainer {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    color: white;
+}
+
+.cartButtonContainer {
+    display: flex;
+    width: 14rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartButtonStyle {
+    display: flex;
+    width: 10rem;
+    height: 40%;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    outline-style: none;
+    color: #ff9900;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 1px solid #ff9900
+}
+
+.lowerButtonContainer {
+    display: flex;
+    height: 100%;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerButtonStyleBack {
+    display: flex;
+    outline-style: none;
+    background-color: #f3f3f3;
+    height: 40%;
+    width: 10rem;
+    border-radius: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border: 1px solid red;
+    font-size: 1rem;
+    align-items: center;
+    font-family: inherit;
+}
+
+.lowerButtonStyleCheckout {
+    display: flex;
+    outline-style: none;
+    background-color: #f3f3f3;
+    height: 40%;
+    width: 10rem;
+    border-radius: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    border: 1px solid green;
+    font-size: 1rem;
+    align-items: center;
+    font-family: inherit;
+}
+
+
+.arrowGraphicStyle {
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+}

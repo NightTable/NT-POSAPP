@@ -1,0 +1,167 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.fullMenuOverviewScreenContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.fullMenuUpperHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    flex: 1;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.leftSideHeaderLabelContainer { 
+    display: flex;
+    width: 10rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSideCartButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+}
+
+.fullMenuMainBodyContainer {
+    padding-top: 4rem;
+    background-color: #f3f3f3;
+    border-radius: 6rem;
+    align-items: center;
+    display: flex;
+    flex: 8;
+    position: relative;
+    width: 98%;
+    flex-direction: column;
+    overflow: scroll;
+    padding-bottom: 2rem;
+}
+
+.menuListContainer {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.outerMenuListSectionContainer {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.fullMenuLowerFooterContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cartButtonStyle {
+    outline-style: none;
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid #ff9900;
+    background-color: white;
+    border-radius: 0.2rem;
+    color: #ff9900;
+    font: inherit
+
+}
+
+.toggleSectionMenuButtonContainer {
+    margin-top: 1.2rem;
+    display: flex;
+    width: 90%;
+    height: 5rem;
+
+}
+
+.toggleSectionMenuButton {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    outline-style: none;
+    border: 1px solid #ff9900;
+    color: #ff9900;
+    height: 3rem;
+    width: 15rem;
+    font-family: inherit;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    background-color: #f3f3f3;
+}
+
+.leftSideCheckoutButtonContainer {
+    display: flex;
+    width: 15rem;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSideCheckoutButtonContainer {
+    display: flex;
+    width: 15rem;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerButtonStyleRed {
+    color: red;
+    display: flex;
+    font-size: 1.1rem;
+    font-family: inherit;
+    width: 10rem;
+    height: 2rem;
+    flex-direction: row;
+    align-items: center;
+    outline-style: none;
+    border-radius: 0.3rem;
+}
+
+.footerButtonStyleGreen {
+    color: green;
+    display: flex;
+    font-size: 1rem;
+    font-family: inherit;
+    width: 10rem;
+    height: 2rem;
+    flex-direction: row;
+    height: 2rem;
+    outline-style: none;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+
+.redLeftArrowPicStyle {
+    height: 4rem;
+    width: 4rem;
+}
+
+.greenRightArrowPicStyle {
+    height: 4rem;
+    width: 4rem;
+}
+
+.checkoutLabelTextStyle {
+    display: flex;
+    margin-left: 0.8rem;
+}

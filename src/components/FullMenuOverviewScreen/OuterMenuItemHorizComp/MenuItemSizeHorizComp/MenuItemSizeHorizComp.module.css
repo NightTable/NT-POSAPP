@@ -1,0 +1,46 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.menuItemSizeCompContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 2.6rem;
+    justify-content: flex-end;
+    margin-top: 0.05rem;
+    margin-bottom: 0.05rem;
+}
+
+.innerInformationContainer {
+    display: flex;
+    background-color: white;
+    border: 0.15rem solid #c3195d;
+    border-radius: 0.4rem;
+    width: 66.6%;
+    flex-direction: row;
+
+}
+
+.leftSideSizeInfoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex: 2;
+}
+
+.rightSidePriceInfoContainer {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+
+.infoLabelStyle {
+    color: #c3195d;
+    margin-left: 0.8rem;
+}

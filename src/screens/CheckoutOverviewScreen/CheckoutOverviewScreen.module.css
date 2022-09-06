@@ -1,0 +1,82 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+
+.checkoutOverviewScreenContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upperCheckoutHeaderContainer {
+    display: flex;
+    width: 100%;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkoutLabelContainer { 
+    display: flex;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    color: white;
+}
+
+.middleCheckoutBodyContainer { 
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    flex: 15;
+}
+
+.lowerButtonFooterContainer {
+    display: flex;
+    width: 100%;
+    flex: 2;
+}
+
+.innerExpandableOverviewInfoContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.redLeftArrowPicStyle {
+    height: 4rem;
+    width: 4rem;
+}
+
+.backButtonContainer {
+    display: flex;
+    width: 8rem;
+    margin-left: 3rem;
+    height: 100%;
+    align-items: center;
+}
+
+.backButtonStyle {
+    outline-style: none;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2.2rem;
+    border-radius: 0.5rem;
+    color: #c3195d;
+    font-family: inherit;
+    font-size: 0.9rem;
+    box-shadow: 0px 0px 2px black;
+}

@@ -1,0 +1,211 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.posTransactionDetailScreenContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.transactionOverviewTextStyle {
+    display: flex;
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 1.4rem;
+}
+
+.transactionOverviewTextContainer {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    margin-top: 2rem;
+}
+
+.whiteTransactionContainerBubble {
+    margin-top: 2.5rem;
+    display: flex;
+    background-color: white;
+    border-radius: 3rem;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 40rem;
+}
+
+.upperInfoSection {
+    display: flex;
+    height: 17rem;
+    width: 90%;
+    flex-direction: column;
+    margin-top: 0.5rem;
+
+}
+
+.upperFirstRowContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.leftSideRowContainer {
+    display: flex;
+    height: 100%;
+    width: 25rem;
+    align-items: center;
+}
+
+.rightSideRowContainer {
+    display: flex;
+    width: 15rem;
+    align-items: center;
+}
+
+.upperSecondRowContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    width: 100%;
+}
+
+.chargeTextStyle {
+    color: #c3195d;
+    font-size: 1.4rem;
+}
+
+.purchasePersonTextStyle {
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.upperThirdRowContainer {
+    display: flex;
+    flex: 2;
+}
+
+.nameOnPurchaseTextStyle {
+    display: flex;
+    color: #c3195d;
+    font-size: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+.purchaseTypeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.purchaseTypeTextStyle {
+    display: flex;
+    color: #c3195d;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+}
+
+.tablePurchaseContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.associatedTablePurchaseTextStyle {
+    display: flex;
+    font-size: 1.4rem;
+    color: #c3195d;
+    margin-right: 1rem;
+}
+
+.menuTextTypeStyle {
+    display: flex;
+    font-size: 1.4rem;
+
+}
+
+.tablePurchaseNumberIdStyle {
+    display: flex;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.lowerInfoSection {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 18rem;
+}
+
+.categoryRowContainer {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    border-bottom: 2px solid #c3195d;
+}
+
+.itemHeadingContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex: 6;
+}
+
+.categoryTextStyle {
+    display: flex;
+    color: #c3195d;
+    font-size: 1.4rem;
+}
+
+.listPriceHeadingContainer {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+}
+
+.qtyHeadingContainer {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+}
+
+.lowestFooterSectionContainer {
+    display: flex;
+    width: 90%;
+    height: 4rem;
+}
+
+.backButtonContainer {
+    display: flex;
+    width: 10rem;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.leftArrowPicStyle {
+    display: flex;
+    height: 5rem;
+    margin-top: 0.3rem;
+    width: 5rem;
+}
+
+.backButtonStyle {
+    display: flex;
+    font-size: 1.4rem;
+    color: #c3195d;
+    font-family: inherit;
+    background-color: white;
+    width: 90%;
+    height: 50%;
+    align-items: center;
+}

@@ -1,0 +1,69 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.welcomeTouchScreenContainer {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    flex-direction: column;
+}
+
+.innerPurpleBubbleContainer {
+    display: flex;
+    height: 30rem;
+    width: 60rem;
+    background-color: #c3195d;
+    border-radius: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px black;
+}
+
+.nightTableHeaderRowContainer {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.continueButtonRowContainer {
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nightTableHeaderTextStyle {
+    display: flex;
+    font-size: 3rem;
+    color: white;
+}
+
+.continueButtonStyle {
+    display: flex;
+    outline-style: none;
+    border-style: none;
+    background-color: white;
+    color: #c3195d; 
+    height: 50%;
+    font-family: inherit;
+    width: 18rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px black;
+}
+
+.continueTextStyle {
+    display: flex;
+    font-size: 2rem;
+}

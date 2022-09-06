@@ -1,0 +1,53 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.mainLayoutOverviewScreenContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background-color: #c3195d;
+}
+
+.leftColumnContainer {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex: 2;
+    border-right: 1px solid white;
+}
+
+.mainBodyContainer {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    flex: 10;
+}
+
+/* .leftMenuItemContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 10;
+} */
+
+.leftMenuItemContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+}
+
+.leftMenuTextUnderlined {
+    color: white;
+    text-decoration: underline;
+}
+
+.leftMenuText {
+    color: white;
+}

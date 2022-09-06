@@ -1,0 +1,107 @@
+/* All information, source code contained in this document 
+is the property of StrynDev Solutions, LLC. It must not 
+be transmitted to others without the written consent of 
+StrynDev Solutions. It must be returned to StrynDev Solutions 
+when its authorized use is terminated. */
+
+.menuDisplayTemplateCompContainer {
+    display: flex;
+    width: 86%;
+    height: 90%;
+    flex-direction: column;
+    background-color: #f3f3f3;
+}
+
+.titleRowHeadingContainer {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    flex-direction: row;
+}
+
+.headerLabelStyle {
+    display: flex;
+    color: #c3195d;
+    font-size: 1.4rem;
+}
+
+.categoryRowHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+    height: 2.1rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid #c3195d;
+}
+
+.nameCategoryContainerStyle {
+    display: flex;
+    height: 100%;
+    flex: 5;
+    color: #c3195d;
+}
+
+.sizeCategoryContainerStyle {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex: 3;
+    color: #c3195d;
+}
+
+.priceCategoryContainerStyle {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex: 3;
+    color: #c3195d;
+}
+
+.quantityCategoryContainerStyle {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex: 3;
+    color: #c3195d;
+}
+
+.outerItemListContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 23rem;
+}
+
+.menuSectionFooterRowContainer {
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    justify-content: space-between;
+}
+
+.toggleFullMenuButtonContainer {
+    display: flex;
+    height: 80%;
+    width: 12rem;
+    justify-content: center;
+}
+
+.addToCartButtonContainer {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    width: 12rem;
+}
+
+.lowerButtonStyle {
+    display: flex;
+    background-color: #f3f3f3;
+    color: orange;
+    font-size: 0.8rem;
+    align-items: center;
+    border: 2px solid orange;
+    justify-content: center;
+    width: 9rem;
+    border-radius: 0.3rem;
+}
